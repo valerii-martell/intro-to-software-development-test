@@ -11,6 +11,7 @@ def test_find_average_given_list_of_numbers():
 
     assert result == 3.5
 
+
 def test_private_function_returns_private():
     result = _private_function()
 
