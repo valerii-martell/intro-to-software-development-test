@@ -20,6 +20,10 @@ repository = "https://github.com/valerii-martell/intro-to-software-development-t
 
 [tool.ruff]
 line-length = 127
+include = ["src/**/*.py", "tests/**/*.py"]
+exclude = [
+    "course_documentation"
+]
 
 [tool.ruff.lint]
 ignore = ["E203", "E501", "E712"]
